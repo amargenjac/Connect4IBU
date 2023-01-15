@@ -1,0 +1,228 @@
+2022.11.03 15:53:08 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.03 15:53:10 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\metals.log
+2022.11.03 15:53:10 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4Scala' for client Visual Studio Code 1.73.0.
+2022.11.03 15:53:13 INFO  time: initialize in 2.16s
+2022.11.03 15:53:15 WARN  Build server is not auto-connectable.
+2022.11.03 15:53:15 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 15:53:18 INFO  no build target found for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.03 15:53:19 INFO  time: code lens generation in 4.72s
+2022.11.03 15:54:35 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 15:55:00 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 15:55:08 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 15:55:25 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 16:01:29 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+Nov 03, 2022 4:02:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 337
+2022.11.03 16:02:39 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 16:02:55 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 16:03:53 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 16:04:12 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2022.11.03 16:09:24 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+Nov 03, 2022 4:09:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.03 16:10:23 INFO  shutting down Metals
+2022.11.03 16:10:23 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.01.15 16:32:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.15 16:32:50 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\metals.log
+2023.01.15 16:32:50 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4Scala' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 16:32:52 INFO  time: initialize in 1.95s
+2023.01.15 16:32:54 WARN  Build server is not auto-connectable.
+2023.01.15 16:32:54 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 16:33:16 INFO  no build target found for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+Jan 15, 2023 4:33:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 4:33:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.01.15 16:33:20 INFO  time: code lens generation in 23s
+2023.01.15 16:33:20 INFO  time: code lens generation in 3.9s
+2023.01.15 16:40:41 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\build.sbt
+2023.01.15 17:09:26 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:20:14 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:21:16 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:28:39 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:29:02 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+Jan 15, 2023 5:30:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 880
+2023.01.15 17:30:33 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:34:31 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:35:16 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:38:17 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:38:24 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:40:00 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:46:23 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:58:19 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:58:47 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 17:59:45 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:00:18 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:04:00 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:04:53 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:05:07 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:06:13 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:12:27 INFO  shutting down Metals
+2023.01.15 18:16:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.15 18:16:48 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\metals.log
+2023.01.15 18:16:48 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4Scala' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 18:16:50 INFO  time: initialize in 1.78s
+2023.01.15 18:16:52 WARN  Build server is not auto-connectable.
+2023.01.15 18:16:52 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:16:54 INFO  shutting down Metals
+2023.01.15 18:24:26 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.15 18:24:27 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\metals.log
+2023.01.15 18:24:27 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4Scala' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 18:24:28 INFO  time: initialize in 1.49s
+2023.01.15 18:24:30 WARN  Build server is not auto-connectable.
+2023.01.15 18:24:30 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:24:33 INFO  no build target found for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.15 18:24:34 INFO  running 'C:\Users\amarg\.jabba\jdk\openjdk@1.17.0\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\amarg\AppData\Local\Temp\metals4832943294729005312\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.01.15 18:24:35 INFO  time: code lens generation in 4.5s
+2023.01.15 18:24:38 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 17)
+2023.01.15 18:24:41 INFO  [info] loading settings for project connect4scala-build-build from metals.sbt ...
+2023.01.15 18:24:41 INFO  [info] loading project definition from C:\Users\amarg\OneDrive\Desktop\Connect4Scala\project\project
+2023.01.15 18:24:46 INFO  [info] loading settings for project connect4scala-build from metals.sbt ...
+2023.01.15 18:24:46 INFO  [info] loading project definition from C:\Users\amarg\OneDrive\Desktop\Connect4Scala\project
+2023.01.15 18:24:51 INFO  [success] Generated .bloop\connect4scala-build.json
+2023.01.15 18:24:51 INFO  [success] Total time: 5 s, completed 15 Jan 2023, 18:24:51
+2023.01.15 18:24:53 INFO  [info] loading settings for project root from build.sbt ...
+2023.01.15 18:24:53 INFO  [info] set current project to Connect4-Scala (in build file:/C:/Users/amarg/OneDrive/Desktop/Connect4Scala/)
+2023.01.15 18:24:53 INFO  [warn] scala-library-2.13.10-sources.jar no longer exists at \Users\nedimkaravdic\Library\Caches\Coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10-sources.jar
+2023.01.15 18:24:53 INFO  [success] Generated .bloop\root-test.json
+2023.01.15 18:24:53 INFO  [success] Generated .bloop\root.json
+2023.01.15 18:24:53 INFO  [success] Total time: 0 s, completed 15 Jan 2023, 18:24:54
+2023.01.15 18:24:54 INFO  time: ran 'sbt bloopInstall' in 19s
+2023.01.15 18:24:54 INFO  Attempting to connect to the build server...
+2023.01.15 18:24:54 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.15 18:25:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4Scala\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.15 18:25:07 INFO  Attempting to connect to the build server...
+2023.01.15 18:25:07 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.15 18:25:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4Scala\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.15 18:25:09 INFO  time: Connected to build server in 15s
+2023.01.15 18:25:09 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.15 18:25:09 INFO  time: Imported build in 0.17s
+2023.01.15 18:25:21 INFO  time: indexed workspace in 11s
+2023.01.15 18:25:22 INFO  compiling root (1 scala source)
+Jan 15, 2023 6:25:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jan 15, 2023 6:25:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2023.01.15 18:25:25 INFO  compiling root (1 scala source)
+2023.01.15 18:25:44 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:25:44 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:25:44 INFO  time: compiled root in 19s
+2023.01.15 18:26:19 INFO  compiling root (1 scala source)
+2023.01.15 18:26:19 INFO  time: compiled root in 0.59s
+2023.01.15 18:26:32 INFO  compiling root (1 scala source)
+2023.01.15 18:26:34 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:26:34 INFO  time: compiled root in 2.14s
+2023.01.15 18:26:34 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:16 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:17 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:18 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:18 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:18 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:19 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:32 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:36 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:47 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:51 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:51 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:52 INFO  compiling root (1 scala source)
+2023.01.15 18:27:52 INFO  time: compiled root in 95ms
+2023.01.15 18:27:52 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:56 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:27:57 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:28:01 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:28:01 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:28:02 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:28:03 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:20 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:30 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:30 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:33 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:33 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:36 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:36 WARN  Could not load snapshot text for C:\Users\amarg\OneDrive\Desktop\Connect4Scala\src\main\scala\Main.scala
+2023.01.15 18:31:39 INFO  compiling root (1 scala source)
+2023.01.15 18:31:39 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:31:39 INFO  time: compiled root in 0.89s
+2023.01.15 18:34:30 INFO  compiling root (1 scala source)
+2023.01.15 18:34:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:34:30 INFO  time: compiled root in 0.63s
+2023.01.15 18:35:26 INFO  compiling root (1 scala source)
+2023.01.15 18:35:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:35:26 INFO  time: compiled root in 0.8s
+Jan 15, 2023 6:36:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+2023.01.15 18:36:56 INFO  compiling root (1 scala source)
+2023.01.15 18:36:56 INFO  time: compiled root in 55ms
+2023.01.15 18:36:58 INFO  compiling root (1 scala source)
+2023.01.15 18:36:58 INFO  time: compiled root in 76ms
+2023.01.15 18:37:08 INFO  compiling root (1 scala source)
+2023.01.15 18:37:08 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:37:08 INFO  time: compiled root in 0.78s
+2023.01.15 18:37:12 INFO  compiling root (1 scala source)
+2023.01.15 18:37:12 INFO  time: compiled root in 54ms
+2023.01.15 18:37:18 INFO  compiling root (1 scala source)
+2023.01.15 18:37:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:37:18 INFO  time: compiled root in 0.66s
+2023.01.15 18:37:21 INFO  compiling root (1 scala source)
+2023.01.15 18:37:21 INFO  time: compiled root in 75ms
+2023.01.15 18:37:23 INFO  compiling root (1 scala source)
+2023.01.15 18:37:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:37:23 INFO  time: compiled root in 0.67s
+2023.01.15 18:37:27 INFO  compiling root (1 scala source)
+2023.01.15 18:37:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.15 18:37:27 INFO  time: compiled root in 0.72s
+2023.01.15 18:43:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.15 18:43:39 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\metals.log
+2023.01.15 18:43:39 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4IBU' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 18:43:44 INFO  time: initialize in 5.55s
+2023.01.15 18:43:47 INFO  Attempting to connect to the build server...
+2023.01.15 18:43:47 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.15 18:43:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.15 18:43:48 INFO  Attempting to connect to the build server...
+2023.01.15 18:43:48 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.15 18:43:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.15 18:43:48 INFO  time: Connected to build server in 0.56s
+2023.01.15 18:43:48 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.15 18:43:51 INFO  no build target found for C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.10
+2023.01.15 18:43:52 INFO  time: indexed workspace in 3.88s
+2023.01.15 18:43:52 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+2023.01.15 18:43:52 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+2023.01.15 18:43:53 INFO  time: code lens generation in 1.2s
+2023.01.15 18:43:53 INFO  time: code lens generation in 5.15s
+2023.01.15 18:44:26 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala

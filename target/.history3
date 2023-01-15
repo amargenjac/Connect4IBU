@@ -1,0 +1,47 @@
+1666876613921:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/b_/4jp24bw14dv0g1hyrnwvrgm40000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers, resolveSbtClassifiers");apply -cp "/Users/nedimkaravdic/Library/Application Support/JetBrains/IntelliJIdea2022.1/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1667487210459:run
+1667487901020:exit
+1673796879939:sbt run
+1673796882158:sbt
+1673796888753:scala
+1673796903181:sbt start
+1673796908406:compile
+1673796920837:run
+1673796974114:1
+1673797016752:run
+1673797030819:1
+1673797035174:run
+1673798989499:compile
+1673798991799:run
+1673799618830:compile
+1673799620275:run
+1673799700912:compile
+1673799701746:run
+1673800123806:compile
+1673800149755:run
+1673800281499:compile
+1673800284147:run
+1673800491646:compile
+1673800497721:run
+1673800519240:compile
+1673800521636:run
+1673800649259:compile
+1673800651322:run
+1673800720612:compile
+1673800725831:run
+1673800822867:compile
+1673801941324:run
+1673802004863:compile
+1673802027216:run
+1673802309855:compile
+1673802379530:run
+1673803605919:compile
+1673803607823:run
+1673803905388:compile
+1673803910404:run
+1673804249786:compile
+1673804255307:run
+1673804639931:compile
+1673804641548:run
+1673804687491:compile
+1673804693664:run
