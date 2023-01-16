@@ -2,13 +2,16 @@ import scala.util.control.Breaks._
 object Connect4 {
   println("Please input dimensions of the board")
   println("-------------------------------------")
-  val rows = getRows()
-  val cols = getCols()
-  val maxMoves = rows * cols
+  var rows = getRows()
+  var cols = getCols()
   var movesCounter = 0
 
   //check for invalid board size needs to be implemented here, loop until the size is good
-
+  while(!isValidSize(rows,cols)){
+    rows = getRows()
+    cols = getCols()
+  }
+  var maxMoves = rows * cols
   val board = Array.fill(rows, cols)('*')
  
  
@@ -55,15 +58,14 @@ def isDraw(): Boolean = {
 // check if the board is too small or if the difference between rows and cols is greater than 2
 def isValidSize(row: Int, col: Int): Boolean ={
   if (row < 6 || col < 7){
-    println("Minimum size of the board should be 6x7. Please change your inputs")
-    false
+    println("Board size can't be less than 6x7. Please change your input")
+    return false
   }
   else if(row - col >= 2 || rows - cols <= -3){
-    println("Difference between rows and columns can't be greater than 2")
-    false
+    println("Difference between rows and columns in the board can't be greater than 2. Please change your input")
+    return false
   }
-  true
-
+  return true
 }
 
 //helper function to input rows
