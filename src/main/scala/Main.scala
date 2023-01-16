@@ -1,14 +1,15 @@
 import scala.util.control.Breaks._
 object Connect4 {
-  val empty = '*'
   println("Please input dimensions of the board")
   println("-------------------------------------")
   val rows = getRows()
   val cols = getCols()
+  val maxMoves = rows * cols
+  var movesCounter = 0
 
   //check for invalid board size needs to be implemented here, loop until the size is good
 
-  val board = Array.fill(rows, cols)(empty)
+  val board = Array.fill(rows, cols)('*')
  
  
   def main(args: Array[String]): Unit = {
@@ -36,9 +37,19 @@ object Connect4 {
           println(s"Player $player wins!")
           return
         }
+        if(isDraw()){
+          return
+        }
         player = if (player == 'X') 'O' else 'X'
   }
 }
+}
+
+def isDraw(): Boolean = {
+  if(movesCounter == maxMoves){
+    println("The game is draw!")
+    return true}
+  return false
 }
 
 // check if the board is too small or if the difference between rows and cols is greater than 2
@@ -75,14 +86,15 @@ def nextMove(player: Char, col: Int): Boolean = {
       return false
     }
     for (row <- rows - 1 to 0 by -1) {
-      if (board(row)(col) == empty) {
+      if (board(row)(col) == '*') {
         board(row)(col) = player
+        movesCounter += 1
         return true
       }
     }
     return false
   }
-  def isFourInRow(player: Char): Boolean = {
+   def isFourInRow(player: Char): Boolean = {
     for (row <- 0 until rows) {
       for (col <- 0 until cols) {
         if (board(row)(col) == player) {
@@ -103,8 +115,8 @@ def nextMove(player: Char, col: Int): Boolean = {
     }
     return false
   }
-
-    def checkFour(player: Char, row: Int, col: Int, rows: Int, cols: Int): Boolean = {
+ 
+  def checkFour(player: Char, row: Int, col: Int, rowdif: Int, coldif: Int): Boolean = {
     var count = 0
     var r = row
     var c = col
@@ -113,8 +125,8 @@ def nextMove(player: Char, col: Int): Boolean = {
       if (count == 4) {
         return true
       }
-      r += rows
-      c += cols
+      r += rowdif
+      c += coldif
     }
     return false
   }

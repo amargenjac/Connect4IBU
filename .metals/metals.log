@@ -323,3 +323,182 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.01.16 00:56:55 INFO  time: Connected to build server in 0.18s
 2023.01.16 00:56:55 INFO  Connected to Build server: Bloop v1.5.6
 2023.01.16 00:57:09 INFO  time: indexed workspace in 13s
+2023.01.16 01:04:27 INFO  compiling root (1 scala source)
+2023.01.16 01:04:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:04:33 INFO  time: compiled root in 6.31s
+2023.01.16 01:11:07 INFO  compiling root (1 scala source)
+2023.01.16 01:11:07 INFO  time: compiled root in 0.48s
+Jan 16, 2023 1:11:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+2023.01.16 01:11:18 INFO  compiling root (1 scala source)
+2023.01.16 01:11:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:11:21 INFO  time: compiled root in 2.34s
+2023.01.16 01:14:15 INFO  compiling root (1 scala source)
+2023.01.16 01:14:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:14:17 INFO  time: compiled root in 1.87s
+Jan 16, 2023 1:14:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 351
+2023.01.16 01:15:36 INFO  compiling root (1 scala source)
+2023.01.16 01:15:38 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:15:38 INFO  time: compiled root in 2.29s
+Jan 16, 2023 1:22:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 463
+2023.01.16 01:24:14 INFO  compiling root (1 scala source)
+2023.01.16 01:24:14 INFO  time: compiled root in 0.23s
+2023.01.16 01:25:08 INFO  compiling root (1 scala source)
+2023.01.16 01:25:08 INFO  time: compiled root in 0.19s
+2023.01.16 01:25:39 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:27: stale bloop error: type mismatch;
+ found   : Char
+ required: String
+        board(row)(col) = player
+                          ^^^^^^
+2023.01.16 01:25:39 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:27: stale bloop error: type mismatch;
+ found   : Char
+ required: String
+        board(row)(col) = player
+                          ^^^^^^
+2023.01.16 01:25:42 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:27: stale bloop error: type mismatch;
+ found   : Char
+ required: String
+        board(row)(col) = player
+                          ^^^^^^
+2023.01.16 01:25:42 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:27: stale bloop error: type mismatch;
+ found   : Char
+ required: String
+        board(row)(col) = player
+                          ^^^^^^
+2023.01.16 01:25:45 INFO  compiling root (1 scala source)
+2023.01.16 01:25:45 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:25:45 INFO  time: compiled root in 0.98s
+2023.01.16 01:25:52 INFO  compiling root (1 scala source)
+2023.01.16 01:25:52 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:25:52 INFO  time: compiled root in 0.84s
+2023.01.16 01:26:05 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:11: stale bloop warning: comparing values of types Char and String using `==` will always yield false
+      if (board(row)(col) == "*") {
+          ^^^^^^^^^^^^^^^^^^^^^^
+2023.01.16 01:26:05 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:11: stale bloop warning: comparing values of types Char and String using `==` will always yield false
+      if (board(row)(col) == "*") {
+          ^^^^^^^^^^^^^^^^^^^^^^
+2023.01.16 01:26:05 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:11: stale bloop warning: comparing values of types Char and String using `==` will always yield false
+      if (board(row)(col) == "*") {
+          ^^^^^^^^^^^^^^^^^^^^^^
+2023.01.16 01:26:05 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:11: stale bloop warning: comparing values of types Char and String using `==` will always yield false
+      if (board(row)(col) == "*") {
+          ^^^^^^^^^^^^^^^^^^^^^^
+2023.01.16 01:26:17 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:11: stale bloop warning: comparing values of types Char and String using `==` will always yield false
+      if (board(row)(col) == "*") {
+          ^^^^^^^^^^^^^^^^^^^^^^
+2023.01.16 01:26:17 INFO  file:///C:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala:78:11: stale bloop warning: comparing values of types Char and String using `==` will always yield false
+      if (board(row)(col) == "*") {
+          ^^^^^^^^^^^^^^^^^^^^^^
+2023.01.16 01:26:24 INFO  compiling root (1 scala source)
+2023.01.16 01:26:25 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:26:25 INFO  time: compiled root in 1.24s
+2023.01.16 01:26:32 INFO  compiling root (1 scala source)
+2023.01.16 01:26:32 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:26:32 INFO  time: compiled root in 0.78s
+2023.01.16 01:30:26 INFO  compiling root (1 scala source)
+2023.01.16 01:30:26 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:30:27 INFO  time: compiled root in 1.04s
+Jan 16, 2023 1:33:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 942
+Jan 16, 2023 1:38:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1018
+Jan 16, 2023 1:41:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1299
+2023.01.16 01:41:30 INFO  compiling root (1 scala source)
+2023.01.16 01:41:30 INFO  time: compiled root in 0.16s
+2023.01.16 01:41:41 INFO  compiling root (1 scala source)
+2023.01.16 01:41:41 INFO  time: compiled root in 0.17s
+2023.01.16 01:41:55 INFO  compiling root (1 scala source)
+2023.01.16 01:41:55 INFO  time: compiled root in 0.14s
+2023.01.16 01:41:55 INFO  compiling root (1 scala source)
+2023.01.16 01:41:55 INFO  time: compiled root in 0.13s
+2023.01.16 01:41:59 INFO  compiling root (1 scala source)
+2023.01.16 01:41:59 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:41:59 INFO  time: compiled root in 0.8s
+2023.01.16 01:42:11 INFO  compiling root (1 scala source)
+2023.01.16 01:42:11 INFO  time: compiled root in 0.13s
+2023.01.16 01:42:27 INFO  compiling root (1 scala source)
+2023.01.16 01:42:27 INFO  time: compiled root in 0.14s
+2023.01.16 01:42:49 INFO  compiling root (1 scala source)
+2023.01.16 01:42:49 INFO  time: compiled root in 0.22s
+2023.01.16 01:45:27 INFO  compiling root (1 scala source)
+2023.01.16 01:45:27 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:45:27 INFO  time: compiled root in 0.83s
+2023.01.16 01:47:31 INFO  compiling root (1 scala source)
+2023.01.16 01:47:31 INFO  time: compiled root in 0.16s
+2023.01.16 01:48:13 INFO  compiling root (1 scala source)
+2023.01.16 01:48:13 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:48:13 INFO  time: compiled root in 0.89s
+2023.01.16 01:49:29 INFO  compiling root (1 scala source)
+2023.01.16 01:49:29 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:49:29 INFO  time: compiled root in 0.97s
+2023.01.16 01:50:48 INFO  compiling root (1 scala source)
+2023.01.16 01:50:48 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:50:48 INFO  time: compiled root in 0.75s
+2023.01.16 01:51:39 INFO  compiling root (1 scala source)
+2023.01.16 01:51:39 INFO  time: compiled root in 0.14s
+Jan 16, 2023 1:51:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1953
+Jan 16, 2023 1:51:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1955
+2023.01.16 01:52:02 INFO  compiling root (1 scala source)
+2023.01.16 01:52:02 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:52:02 INFO  time: compiled root in 0.77s
+2023.01.16 01:53:53 INFO  compiling root (1 scala source)
+2023.01.16 01:53:53 WARN  2 deprecations (since 2.13.0)
+2023.01.16 01:53:53 WARN  1 deprecation (since 2.13.3)
+2023.01.16 01:53:53 WARN  3 deprecations in total; re-run with -deprecation for details
+2023.01.16 01:53:53 INFO  time: compiled root in 0.8s
+Jan 16, 2023 1:58:18 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1258, count -1, length 3597
+2023.01.16 01:59:54 INFO  compiling root (1 scala source)
+2023.01.16 01:59:56 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 01:59:56 INFO  time: compiled root in 1.72s
+Jan 16, 2023 2:01:36 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 16, 2023 2:02:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/c%3A/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Camarg%5C%5COneDrive%5C%5CDesktop%5C%5CConnect4IBU%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CMain.scala%22%2C%22ref%22%3A%22~%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in query at index 75: git:/c:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala?{"path":"c:%5C%5CUsers%5C%5Camarg%5C%5COneDrive%5C%5CDesktop%5C%5CConnect4IBU%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CMain.scala"%2C"ref":"~"}
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
+	... 16 more
+Caused by: java.net.URISyntaxException: Illegal character in query at index 75: git:/c:/Users/amarg/OneDrive/Desktop/Connect4IBU/src/main/scala/Main.scala?{"path":"c:%5C%5CUsers%5C%5Camarg%5C%5COneDrive%5C%5CDesktop%5C%5CConnect4IBU%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CMain.scala"%2C"ref":"~"}
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3233)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 20 more
+
