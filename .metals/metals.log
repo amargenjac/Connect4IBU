@@ -581,3 +581,104 @@ WARNING: Unmatched cancel notification for request id 3406
 2023.01.16 02:24:08 INFO  compiling root (1 scala source)
 2023.01.16 02:24:08 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
 2023.01.16 02:24:08 INFO  time: compiled root in 0.73s
+2023.01.16 02:31:01 INFO  compiling root (1 scala source)
+2023.01.16 02:31:01 INFO  time: compiled root in 0.14s
+2023.01.16 02:31:09 INFO  compiling root (1 scala source)
+2023.01.16 02:31:09 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:31:09 INFO  time: compiled root in 0.66s
+2023.01.16 02:31:33 INFO  compiling root (1 scala source)
+2023.01.16 02:31:33 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:31:33 INFO  time: compiled root in 0.72s
+2023.01.16 02:32:52 INFO  compiling root (1 scala source)
+2023.01.16 02:32:52 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:32:52 INFO  time: compiled root in 0.92s
+2023.01.16 02:36:04 INFO  compiling root (1 scala source)
+2023.01.16 02:36:04 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:36:04 INFO  time: compiled root in 0.76s
+Jan 16, 2023 2:38:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4280
+2023.01.16 02:38:22 INFO  compiling root (1 scala source)
+2023.01.16 02:38:22 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:38:22 INFO  time: compiled root in 0.66s
+2023.01.16 02:40:47 INFO  compiling root (1 scala source)
+2023.01.16 02:40:47 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:40:47 INFO  time: compiled root in 0.63s
+2023.01.16 02:46:08 INFO  compiling root (1 scala source)
+2023.01.16 02:46:08 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:46:08 INFO  time: compiled root in 0.73s
+Jan 16, 2023 2:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4768
+Jan 16, 2023 2:47:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4799
+2023.01.16 02:47:41 INFO  compiling root (1 scala source)
+2023.01.16 02:47:41 INFO  time: compiled root in 95ms
+2023.01.16 02:47:46 INFO  compiling root (1 scala source)
+2023.01.16 02:47:46 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:47:46 INFO  time: compiled root in 0.73s
+2023.01.16 02:47:55 INFO  compiling root (1 scala source)
+2023.01.16 02:47:55 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:47:55 INFO  time: compiled root in 0.69s
+2023.01.16 02:50:09 INFO  compiling root (1 scala source)
+2023.01.16 02:50:09 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:50:09 INFO  time: compiled root in 0.89s
+2023.01.16 02:50:20 INFO  compiling root (1 scala source)
+2023.01.16 02:50:20 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:50:20 INFO  time: compiled root in 0.68s
+2023.01.16 02:51:44 INFO  compiling root (1 scala source)
+2023.01.16 02:51:44 INFO  time: compiled root in 84ms
+2023.01.16 02:51:48 INFO  compiling root (1 scala source)
+2023.01.16 02:51:48 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:51:48 INFO  time: compiled root in 0.72s
+2023.01.16 02:51:51 INFO  compiling root (1 scala source)
+2023.01.16 02:51:51 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:51:51 INFO  time: compiled root in 0.75s
+2023.01.16 02:51:59 INFO  time: code lens generation in 3.21s
+2023.01.16 02:51:59 INFO  time: code lens generation in 3.94s
+2023.01.16 02:52:29 INFO  compiling root (1 scala source)
+2023.01.16 02:52:29 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.01.16 02:52:29 INFO  time: compiled root in 0.73s
+2023.01.16 03:37:10 INFO  shutting down Metals
+2023.01.16 03:37:10 INFO  Shut down connection with build server.
+2023.01.16 03:37:10 INFO  Shut down connection with build server.
+2023.01.16 10:43:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.16 10:43:30 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\metals.log
+2023.01.16 10:43:30 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4IBU' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.16 10:43:32 INFO  time: initialize in 1.9s
+2023.01.16 10:43:34 INFO  Attempting to connect to the build server...
+2023.01.16 10:43:34 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 10:43:34 INFO  skipping build import with status 'Installed'
+2023.01.16 10:43:36 INFO  shutting down Metals
+2023.01.16 23:27:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.16 23:27:32 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\metals.log
+2023.01.16 23:27:32 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4IBU' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.16 23:27:33 INFO  time: initialize in 1.72s
+2023.01.16 23:27:37 INFO  Attempting to connect to the build server...
+2023.01.16 23:27:37 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 23:27:37 INFO  skipping build import with status 'Installed'
+2023.01.16 23:27:44 INFO  no build target found for C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.16 23:27:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.16 23:27:49 INFO  time: code lens generation in 12s
+2023.01.16 23:27:48 INFO  Attempting to connect to the build server...
+2023.01.16 23:27:48 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 23:27:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.16 23:27:48 INFO  time: Connected to build server in 12s
+2023.01.16 23:27:48 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.16 23:27:49 INFO  time: Imported build in 0.25s
+2023.01.16 23:27:57 INFO  time: indexed workspace in 8.1s
+2023.01.16 23:32:30 INFO  shutting down Metals
+2023.01.16 23:32:30 INFO  Shut down connection with build server.
+2023.01.16 23:32:30 INFO  Shut down connection with build server.
+2023.01.16 23:33:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.16 23:33:58 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\metals.log
