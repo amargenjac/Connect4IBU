@@ -1,7 +1,6 @@
 import scala.util.control.Breaks._
 object Connect4 {
-  val win = 4
-  val empty = '.'
+  val empty = '*'
   println("Please input dimensions of the board")
   println("-------------------------------------")
   val rows = getRows()
@@ -27,6 +26,16 @@ object Connect4 {
       if (!nextMove(player, col)) {
         println("Invalid move. Try again.")
       } else {     
+        if (isFourInRow(player)) {
+          for (row <- board) {
+          for (cell <- row) {
+              print(cell + " ")
+      }
+           println()
+    }
+          println(s"Player $player wins!")
+          return
+        }
         player = if (player == 'X') 'O' else 'X'
   }
 }
@@ -70,6 +79,42 @@ def nextMove(player: Char, col: Int): Boolean = {
         board(row)(col) = player
         return true
       }
+    }
+    return false
+  }
+  def isFourInRow(player: Char): Boolean = {
+    for (row <- 0 until rows) {
+      for (col <- 0 until cols) {
+        if (board(row)(col) == player) {
+          if (checkFour(player, row, col, 1, 0)) {
+            return true
+          }
+          if (checkFour(player, row, col, 0, 1)) {
+            return true
+          }
+          if (checkFour(player, row, col, 1, 1)) {
+            return true
+          }
+          if (checkFour(player, row, col, -1, 1)) {
+            return true
+          }
+        }
+      }
+    }
+    return false
+  }
+
+    def checkFour(player: Char, row: Int, col: Int, rows: Int, cols: Int): Boolean = {
+    var count = 0
+    var r = row
+    var c = col
+    while (r >= 0 && r < rows && c >= 0 && c < cols && board(r)(c) == player) {
+      count += 1
+      if (count == 4) {
+        return true
+      }
+      r += rows
+      c += cols
     }
     return false
   }

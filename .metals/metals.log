@@ -226,3 +226,100 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.01.15 18:43:53 INFO  time: code lens generation in 1.2s
 2023.01.15 18:43:53 INFO  time: code lens generation in 5.15s
 2023.01.15 18:44:26 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:01:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+Jan 15, 2023 7:01:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+Jan 15, 2023 7:02:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 305
+2023.01.15 19:02:03 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:06:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 599
+Jan 15, 2023 7:08:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 844
+Jan 15, 2023 7:09:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1027
+Jan 15, 2023 7:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1056
+2023.01.15 19:13:05 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+2023.01.15 19:13:52 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:14:37 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 194, count -1, length 1695
+Jan 15, 2023 7:14:38 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 194, count -1, length 1695
+2023.01.15 19:16:54 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:17:06 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 228, count -1, length 1729
+Jan 15, 2023 7:17:06 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 228, count -1, length 1729
+2023.01.15 19:19:13 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:19:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1376
+Jan 15, 2023 7:19:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1473
+2023.01.15 19:19:54 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:20:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1522
+Jan 15, 2023 7:21:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1598
+2023.01.15 19:23:08 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:23:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1719
+Jan 15, 2023 7:23:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1720
+Jan 15, 2023 7:23:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1755
+2023.01.15 19:24:38 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+2023.01.15 19:25:10 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+Jan 15, 2023 7:25:56 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 192, count -1, length 1993
+2023.01.16 00:56:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.16 00:56:26 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\metals.log
+2023.01.16 00:56:26 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\Connect4IBU' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.16 00:56:31 INFO  time: initialize in 4.93s
+2023.01.16 00:56:33 INFO  Attempting to connect to the build server...
+2023.01.16 00:56:33 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 00:56:37 INFO  running 'C:\Users\amarg\.jabba\jdk\openjdk@1.17.0\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\amarg\AppData\Local\Temp\metals17045225838155593599\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.01.16 00:56:39 INFO  no build target found for C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.16 00:56:43 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 17)
+2023.01.16 00:56:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.16 00:56:43 INFO  time: code lens generation in 10s
+2023.01.16 00:56:43 INFO  time: code lens generation in 6.12s
+2023.01.16 00:56:43 INFO  Attempting to connect to the build server...
+2023.01.16 00:56:43 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 00:56:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.16 00:56:43 INFO  time: Connected to build server in 10s
+2023.01.16 00:56:43 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.16 00:56:43 INFO  time: Imported build in 0.21s
+2023.01.16 00:56:44 INFO  [info] loading settings for project connect4ibu-build-build from metals.sbt ...
+2023.01.16 00:56:44 INFO  [info] loading project definition from C:\Users\amarg\OneDrive\Desktop\Connect4IBU\project\project
+2023.01.16 00:56:47 INFO  [info] loading settings for project connect4ibu-build from metals.sbt ...
+2023.01.16 00:56:47 INFO  [info] loading project definition from C:\Users\amarg\OneDrive\Desktop\Connect4IBU\project
+2023.01.16 00:56:53 INFO  time: indexed workspace in 8.96s
+2023.01.16 00:56:53 WARN  no build target for: C:\Users\amarg\OneDrive\Desktop\Connect4IBU\src\main\scala\Main.scala
+2023.01.16 00:56:54 INFO  [success] Generated .bloop\connect4ibu-build.json
+2023.01.16 00:56:54 INFO  [success] Total time: 7 s, completed 16 Jan 2023, 00:56:54
+2023.01.16 00:56:54 INFO  [info] loading settings for project root from build.sbt ...
+2023.01.16 00:56:54 INFO  [info] set current project to Connect4-Scala (in build file:/C:/Users/amarg/OneDrive/Desktop/Connect4IBU/)
+2023.01.16 00:56:55 INFO  [success] Generated .bloop\root.json
+2023.01.16 00:56:55 INFO  [success] Generated .bloop\root-test.json
+2023.01.16 00:56:55 INFO  [success] Total time: 0 s, completed 16 Jan 2023, 00:56:55
+2023.01.16 00:56:55 INFO  time: ran 'sbt bloopInstall' in 18s
+2023.01.16 00:56:55 INFO  Disconnecting from Bloop session...
+2023.01.16 00:56:55 INFO  Shut down connection with build server.
+2023.01.16 00:56:55 INFO  Shut down connection with build server.
+2023.01.16 00:56:55 INFO  Attempting to connect to the build server...
+2023.01.16 00:56:55 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 00:56:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.16 00:56:55 INFO  Attempting to connect to the build server...
+2023.01.16 00:56:55 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.16 00:56:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\Connect4IBU\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.16 00:56:55 INFO  time: Connected to build server in 0.18s
+2023.01.16 00:56:55 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.16 00:57:09 INFO  time: indexed workspace in 13s
