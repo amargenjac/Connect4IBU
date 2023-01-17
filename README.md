@@ -20,8 +20,8 @@ Scala is a programming language that combines object-oriented and functional pro
 To run the project you first need to install Scala. You can do that [here](https://www.scala-lang.org/download/).
 
 After installing Scala, clone the project onto your device:
-'''
+```
 git clone https://github.com/amargenjac/Connect4IBU.git
-'''
+```
 
 
