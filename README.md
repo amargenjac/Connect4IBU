@@ -23,5 +23,12 @@ After installing Scala, clone the project onto your device:
 ```
 git clone https://github.com/amargenjac/Connect4IBU.git
 ```
+After cloning the project, within the terminal window use these commands:
+```
+sbt
+compile
+run
+```
+
 
 
