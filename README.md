@@ -22,5 +22,6 @@ To run the project you first need to install Scala. You can do that [here](https
 After installing Scala, clone the project onto your device:
 '''
 git clone https://github.com/amargenjac/Connect4IBU.git
+'''
 
 
