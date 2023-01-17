@@ -1,48 +1,50 @@
 import scala.util.control.Breaks._
 object Connect4 {
-  println("Please input dimensions of the board")
-  println("-------------------------------------")
-  var rows = getRows()
-  var cols = getCols()
+  var rows = 0
+  var cols = 0
   var movesCounter = 0
   var playerOneMoves = 0
   var playerTwoMoves = 0
-
-
-  //check for invalid board size needs to be implemented here, loop until the size is good
-  while(!isValidSize(rows,cols)){
-    rows = getRows()
-    cols = getCols()
-  }
+  var player = 'O'  
   var maxMoves = rows * cols
-  val board = Array.fill(rows, cols)('*')
+  var board = Array.fill(rows, cols)('*')
   var moveHistoryOne = Array.fill(maxMoves/2)("")
   var moveHistoryTwo = Array.fill(maxMoves/2)("")
+
  
  
   def main(args: Array[String]): Unit = {
-    while(true){
     
-    var player = 'O'
-    while (true) {
-      formatedOutput()
-      print(s"Player $player's turn. Which column do you want to play in (1-$cols)?")
-      val col = scala.io.StdIn.readInt() - 1
-      if (!nextMove(player, col)) {
-        println("Invalid move. Try again.")
-      } else {     
-        if (isFourInRow(player)) {
-          return
-        }
-        if(isDraw()){
-          return
-        }
-        player = if (player == 'X') 'O' else 'X'
-  }
+    while(true){
+      printMenu()
+      var optionSelected = scala.io.StdIn.readInt()
+      if(optionSelected==0){
+        return
+      }
+      else if(optionSelected==1){
+        println("\u001b[2J")
+        newGame()
+        println("Press enter to continue")
+        var enter = scala.io.StdIn.readLine()
+      }
+      else if(optionSelected==2){
+        loadGame()
+      }
+      else{
+        print("Invalid option, try again!")
+        Thread.sleep(1000)
+      }
+      println("\u001b[2J")
+      
+    
 }
 }
+def printMenu(): Unit = {
+  println("Welcome to IBU Connect 4!")
+  println("Press 1 to start new game!")
+  println("Press 2 to continue game!")
+  println("Press 0 to exit the game!")
 }
-
 
 def printBoard(): Unit = {
   for (row <- board) {
@@ -93,14 +95,14 @@ def isValidSize(row: Int, col: Int): Boolean ={
 //helper function to input rows
 def getRows(): Int ={
   println("Please input number of rows you want to have in your game.")
-  val rows = scala.io.StdIn.readInt()
+  rows = scala.io.StdIn.readInt()
   rows
 }
 
 //helper function to input cols
 def getCols(): Int ={
   println("Please input number of columns you want to have in your game.")
-  val cols = scala.io.StdIn.readInt()
+  cols = scala.io.StdIn.readInt()
   cols
 }
 
@@ -175,6 +177,48 @@ def nextMove(player: Char, col: Int): Boolean = {
     }
     return false
   }
+
+def setBoardConfig(): Unit ={
+  println("Please input dimensions of the board")
+  println("-------------------------------------")
+  rows = getRows()
+  cols = getCols()
+  while(!isValidSize(rows,cols)){
+    rows = getRows()
+    cols = getCols()
+  }
+  player = 'O'
+  maxMoves = rows * cols
+  moveHistoryOne = Array.fill(maxMoves/2)("")
+  moveHistoryTwo = Array.fill(maxMoves/2)("")
+  playerOneMoves = 0
+  playerTwoMoves = 0
+  board = Array.fill(rows, cols)('*')
+  print("\u001b[2J")
+}
+
+def newGame(): Unit = {
+  setBoardConfig()
+  while (true) {
+      formatedOutput()
+      print(s"Player $player's turn. Which column do you want to play in (1-$cols)?")
+      val col = scala.io.StdIn.readInt() - 1
+      if (!nextMove(player, col)) {
+        println("Invalid move. Try again.")
+      } else {     
+        if (isFourInRow(player)) {
+          return
+        }
+        if(isDraw()){
+          return
+        }
+        player = if (player == 'X') 'O' else 'X'
+  }
+}
+}
+def loadGame(): Unit = {
+
+}
 }
  
 
