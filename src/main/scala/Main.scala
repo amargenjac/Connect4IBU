@@ -105,7 +105,7 @@ def chooseGameSymbol(): Unit = {
   else if(input.forall(Character.isDigit)){
     
     if(input.toInt == 1){
-      println("Size limit for player simbols is 1")
+      println("Size limit for player symbols is 1")
       print("Player 1: ")
       player1 = scala.io.StdIn.readLine()
       print("Player 2: ")
