@@ -185,7 +185,7 @@ def chooseGameSymbol(): Unit = {
     chooseGameSymbol()
   }
 
-  if(player1.equals(player2)){
+  else if(player1.equals(player2)){
     println("Symbols cannot be the same")
     Thread.sleep(1500)
     println("\u001b[2J")
@@ -198,10 +198,14 @@ def chooseGameSymbol(): Unit = {
 def isValidSize(row: Int, col: Int): Boolean ={
   if (row < 6 || col < 7){
     println("Board size can't be less than 6x7. Please change your input")
+    Thread.sleep(1500)
+    println("\u001b[2J")
     return false
   }
   else if(row - col >= 2 || rows - cols <= -3){
     println("Difference between rows and columns in the board can't be greater than 2. Please change your input")
+    Thread.sleep(1500)
+    println("\u001b[2J")
     return false
   }
   return true
