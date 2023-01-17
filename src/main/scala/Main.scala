@@ -17,15 +17,24 @@ object Connect4 {
  
  
   def main(args: Array[String]): Unit = {
-    
-    while(true){
+    mainMenu()
+}
+
+def mainMenu(): Unit = {
+  while(true){
       print("\u001b[2J")
       printMenu()
-      var optionSelected = scala.io.StdIn.readInt()
-      if(optionSelected==0){
+      var optionSelected = scala.io.StdIn.readLine()
+      if(optionSelected.isEmpty){
+        println("Invalid input, try again")
+        println("\u001b[2J")
+        mainMenu()
+      }
+      if(optionSelected.forall(Character.isDigit)){
+        if(optionSelected.toInt==0){
         return
       }
-      else if(optionSelected==1){
+      else if(optionSelected.toInt==1){
         println("\u001b[2J")
         chooseGameSymbol()
         setBoardConfig()
@@ -34,7 +43,7 @@ object Connect4 {
         var enter = scala.io.StdIn.readLine()
         print("\u001b[2J")
       }
-      else if(optionSelected==2){
+      else if(optionSelected.toInt==2){
         println("\u001b[2J")
         loadGame()
         play()
@@ -42,9 +51,11 @@ object Connect4 {
         var enter = scala.io.StdIn.readLine()
         print("\u001b[2J")
       }
+      }
       else{
-        print("Invalid option, try again!")
+        println("Invalid option, try again!")
         Thread.sleep(1000)
+        mainMenu()
       }
 }
 }
@@ -82,13 +93,43 @@ def movesPrinter(movesHistory: String,player: String): Unit ={
 
 def getRows(): Int ={
   println("Please input number of rows you want to have in your game.")
-  rows = scala.io.StdIn.readInt()
+  val temp = scala.io.StdIn.readLine()
+  if(temp.isEmpty()){
+    println("Please input valid number")
+    Thread.sleep(1500)
+    println("\u001b[2J")
+    setBoardConfig()
+  }
+  if(!temp.forall(Character.isDigit)){
+    println("Please input valid number")
+    Thread.sleep(1500)
+    println("\u001b[2J")
+    setBoardConfig()
+  }
+  else{
+    rows = temp.toInt
+  }
   rows
 }
 
 def getCols(): Int ={
   println("Please input number of columns you want to have in your game.")
-  cols = scala.io.StdIn.readInt()
+  val temp = scala.io.StdIn.readLine()
+  if(temp.isEmpty()){
+    println("Please input valid number")
+    Thread.sleep(1500)
+    println("\u001b[2J")
+    setBoardConfig()
+  }
+  if(!temp.forall(Character.isDigit)){
+    println("Please input valid number")
+    Thread.sleep(1500)
+    println("\u001b[2J")
+    setBoardConfig()
+  }
+  else{
+    cols = temp.toInt
+  }
   cols
 }
 
@@ -168,6 +209,7 @@ def isValidSize(row: Int, col: Int): Boolean ={
 
 def nextMove(player: String, col: Int): Boolean = {
     if (col < 0 || col >= cols) {
+      print("\u001b[2J")
       return false
     }
     for (row <- rows - 1 to 0 by -1) {
@@ -247,15 +289,27 @@ def isDraw(): Boolean = {
 def play(): Unit = {
   while (true) {
       formatedOutput()
+      println("Type 'save' to save game")
       print(s"Player $player's turn. Which column do you want to play in (1-$cols)?")
       val col = scala.io.StdIn.readLine()
-      if(col.equals("s")){
+      if(col.equals("")){
+        println("Invalid move. Try again!")
+        Thread.sleep(1500)
+        play()
+      }
+      else if(col.equals("quit")){
+        println("Quitting game")
+        Thread.sleep(1000)
+        return
+        print("\u001b[2J")
+      }
+      else if(col.equals("save")){
         saveGame()
         println("Game saved")
         Thread.sleep(1000)
         print("\u001b[2J")
       }
-      if (col.forall(Character.isDigit)){
+      else if (col.forall(Character.isDigit)){
         if (!nextMove(player, col.toInt-1)) {
         println("Invalid move. Try again.")
       } else {     
@@ -267,7 +321,6 @@ def play(): Unit = {
         }
         player = if (player.equals(player2)) player1 else player2
   }
-
       }
       
 }
