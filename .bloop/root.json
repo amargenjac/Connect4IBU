@@ -2,14 +2,14 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU",
-        "workspaceDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU",
+        "directory": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU",
+        "workspaceDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU",
         "sources": [
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\src\\main\\scala",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\src\\main\\scala-2.13",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\src\\main\\scala-2",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\src\\main\\java",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\target\\scala-2.13\\src_managed\\main"
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\src\\main\\scala",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\src\\main\\scala-2.13",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\src\\main\\scala-2",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\src\\main\\java",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\target\\scala-2.13\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -18,11 +18,11 @@
             "C:\\Users\\amarg\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.10\\scala-library-2.13.10.jar",
             "C:\\Users\\amarg\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-swing_2.13\\3.0.0\\scala-swing_2.13-3.0.0.jar"
         ],
-        "out": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\.bloop\\root",
-        "classesDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\.bloop\\root\\scala-2.13\\classes",
+        "out": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\.bloop\\root",
+        "classesDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\.bloop\\root\\scala-2.13\\classes",
         "resources": [
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\src\\main\\resources",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\target\\scala-2.13\\resource_managed\\main"
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\src\\main\\resources",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\target\\scala-2.13\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -102,7 +102,7 @@
             "config": {
                 "home": "C:\\Users\\amarg\\.jabba\\jdk\\openjdk@1.17.0",
                 "options": [
-                    "-Duser.dir=C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU"
+                    "-Duser.dir=C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU"
                 ]
             },
             "mainClass": [

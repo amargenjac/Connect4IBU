@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "connect4ibu-build",
-        "directory": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project",
-        "workspaceDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project",
+        "directory": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project",
+        "workspaceDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project",
         "sources": [
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\src\\main\\scala",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\src\\main\\scala-2",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\src\\main\\java",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\src\\main\\scala",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\src\\main\\scala-2.12",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\src\\main\\scala-2",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\src\\main\\java",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -103,11 +103,11 @@
             "C:\\Users\\amarg\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar",
             "C:\\Users\\amarg\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.2\\config-1.4.2.jar"
         ],
-        "out": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\.bloop\\connect4ibu-build",
-        "classesDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\.bloop\\connect4ibu-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\.bloop\\connect4ibu-build",
+        "classesDir": "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\.bloop\\connect4ibu-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\src\\main\\resources",
-            "C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\src\\main\\resources",
+            "C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -197,9 +197,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jdk-19",
+                "home": "C:\\Users\\amarg\\.jabba\\jdk\\openjdk@1.17.0",
                 "options": [
-                    "-Duser.dir=C:\\Users\\amarg\\OneDrive\\Desktop\\Connect4IBU\\project"
+                    "-Duser.dir=C:\\Users\\amarg\\OneDrive\\Desktop\\IBUConnect4\\Connect4IBU\\project"
                 ]
             },
             "mainClass": [

@@ -3087,3 +3087,49 @@ WARNING: Unmatched cancel notification for request id 16863
 2023.01.17 04:35:54 WARN  2 deprecations (since 2.13.3)
 2023.01.17 04:35:54 WARN  4 deprecations in total; re-run with -deprecation for details
 2023.01.17 04:35:54 INFO  time: compiled root in 0.62s
+2023.01.17 06:13:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\.metals\lsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.17 06:13:13 INFO  logging to file C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\.metals\metals.log
+2023.01.17 06:13:13 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/amarg/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.17 06:13:19 INFO  time: initialize in 5.73s
+2023.01.17 06:13:20 INFO  Attempting to connect to the build server...
+2023.01.17 06:13:20 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.17 06:13:26 INFO  running 'C:\Users\amarg\.jabba\jdk\openjdk@1.17.0\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\amarg\AppData\Local\Temp\metals17329190404626406366\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.01.17 06:13:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.17 06:13:27 INFO  Attempting to connect to the build server...
+2023.01.17 06:13:27 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.17 06:13:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.17 06:13:27 INFO  time: Connected to build server in 7.21s
+2023.01.17 06:13:27 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.17 06:13:28 INFO  time: Imported build in 0.2s
+2023.01.17 06:13:30 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 17)
+2023.01.17 06:13:31 INFO  [info] loading settings for project connect4ibu-build-build from metals.sbt ...
+2023.01.17 06:13:31 INFO  [info] loading project definition from C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\project\project
+2023.01.17 06:13:33 INFO  [info] loading settings for project connect4ibu-build from metals.sbt ...
+2023.01.17 06:13:33 INFO  [info] loading project definition from C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\project
+2023.01.17 06:13:38 INFO  [success] Generated .bloop\connect4ibu-build.json
+2023.01.17 06:13:38 INFO  [success] Total time: 5 s, completed Jan 17, 2023, 6:13:38 AM
+2023.01.17 06:13:38 INFO  [info] loading settings for project root from build.sbt ...
+2023.01.17 06:13:38 INFO  [info] set current project to Connect4-Scala (in build file:/C:/Users/amarg/OneDrive/Desktop/IBUConnect4/Connect4IBU/)
+2023.01.17 06:13:39 INFO  [success] Generated .bloop\root-test.json
+2023.01.17 06:13:39 INFO  [success] Generated .bloop\root.json
+2023.01.17 06:13:39 INFO  [success] Total time: 0 s, completed Jan 17, 2023, 6:13:39 AM
+2023.01.17 06:13:39 INFO  time: ran 'sbt bloopInstall' in 13s
+2023.01.17 06:13:39 INFO  Disconnecting from Bloop session...
+2023.01.17 06:13:39 INFO  Shut down connection with build server.
+2023.01.17 06:13:39 INFO  Shut down connection with build server.
+2023.01.17 06:13:39 INFO  Attempting to connect to the build server...
+2023.01.17 06:13:39 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.17 06:13:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.17 06:13:39 INFO  Attempting to connect to the build server...
+2023.01.17 06:13:39 INFO  Bloop uses C:\Users\amarg\.jabba\jdk\openjdk@1.17.0 defined at C:\Users\amarg\.bloop\bloop.json
+2023.01.17 06:13:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amarg\OneDrive\Desktop\IBUConnect4\Connect4IBU\project\.metals\bsp.trace.json or C:\Users\amarg\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.01.17 06:13:39 INFO  time: Connected to build server in 0.17s
+2023.01.17 06:13:39 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.17 06:13:43 INFO  time: indexed workspace in 3s
+2023.01.17 06:13:43 INFO  time: indexed workspace in 14s
