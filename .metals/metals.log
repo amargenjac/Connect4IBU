@@ -1212,3 +1212,170 @@ WARNING: Unmatched cancel notification for request id 4801
 2023.01.17 00:58:13 INFO  compiling root (1 scala source)
 2023.01.17 00:58:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
 2023.01.17 00:58:14 INFO  time: compiled root in 0.23s
+Jan 17, 2023 1:00:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5088
+2023.01.17 01:02:15 INFO  compiling root (1 scala source)
+2023.01.17 01:02:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:02:15 INFO  time: compiled root in 0.61s
+Jan 17, 2023 1:02:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5532
+2023.01.17 01:03:10 INFO  compiling root (1 scala source)
+2023.01.17 01:03:10 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:03:10 INFO  time: compiled root in 0.81s
+2023.01.17 01:03:21 INFO  compiling root (1 scala source)
+2023.01.17 01:03:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:03:21 INFO  time: compiled root in 0.63s
+2023.01.17 01:04:11 INFO  compiling root (1 scala source)
+2023.01.17 01:04:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:04:11 INFO  time: compiled root in 0.62s
+2023.01.17 01:04:27 INFO  compiling root (1 scala source)
+2023.01.17 01:04:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:04:27 INFO  time: compiled root in 0.59s
+2023.01.17 01:04:33 INFO  compiling root (1 scala source)
+2023.01.17 01:04:33 INFO  time: compiled root in 80ms
+2023.01.17 01:04:45 INFO  compiling root (1 scala source)
+2023.01.17 01:04:45 INFO  time: compiled root in 69ms
+2023.01.17 01:05:58 INFO  compiling root (1 scala source)
+2023.01.17 01:05:58 INFO  time: compiled root in 71ms
+2023.01.17 01:06:10 INFO  compiling root (1 scala source)
+2023.01.17 01:06:10 INFO  time: compiled root in 45ms
+2023.01.17 01:06:17 INFO  compiling root (1 scala source)
+2023.01.17 01:06:17 INFO  time: compiled root in 37ms
+2023.01.17 01:06:34 INFO  compiling root (1 scala source)
+2023.01.17 01:06:34 INFO  time: compiled root in 84ms
+2023.01.17 01:07:20 INFO  compiling root (1 scala source)
+2023.01.17 01:07:20 INFO  time: compiled root in 80ms
+2023.01.17 01:07:44 INFO  compiling root (1 scala source)
+2023.01.17 01:07:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:07:44 INFO  time: compiled root in 0.63s
+2023.01.17 01:07:55 INFO  compiling root (1 scala source)
+2023.01.17 01:07:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:07:55 INFO  time: compiled root in 0.6s
+2023.01.17 01:09:21 INFO  compiling root (1 scala source)
+2023.01.17 01:09:21 INFO  time: compiled root in 75ms
+2023.01.17 01:09:22 INFO  compiling root (1 scala source)
+2023.01.17 01:09:22 INFO  time: compiled root in 0.11s
+2023.01.17 01:09:42 INFO  compiling root (1 scala source)
+2023.01.17 01:09:42 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:09:42 INFO  time: compiled root in 0.64s
+2023.01.17 01:09:44 INFO  compiling root (1 scala source)
+2023.01.17 01:09:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:09:44 INFO  time: compiled root in 0.78s
+2023.01.17 01:09:52 INFO  compiling root (1 scala source)
+2023.01.17 01:09:52 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:09:52 INFO  time: compiled root in 0.59s
+2023.01.17 01:09:55 INFO  compiling root (1 scala source)
+2023.01.17 01:09:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:09:55 INFO  time: compiled root in 0.63s
+Jan 17, 2023 1:10:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6053
+2023.01.17 01:11:02 INFO  compiling root (1 scala source)
+2023.01.17 01:11:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:11:02 INFO  time: compiled root in 0.6s
+2023.01.17 01:11:51 INFO  compiling root (1 scala source)
+2023.01.17 01:11:51 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:11:51 INFO  time: compiled root in 0.64s
+2023.01.17 01:12:00 INFO  compiling root (1 scala source)
+2023.01.17 01:12:00 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:12:00 INFO  time: compiled root in 0.56s
+Jan 17, 2023 1:12:24 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 555, count -1, length 5056
+2023.01.17 01:14:26 INFO  compiling root (1 scala source)
+2023.01.17 01:14:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:14:26 INFO  time: compiled root in 0.61s
+2023.01.17 01:15:37 INFO  compiling root (1 scala source)
+2023.01.17 01:15:37 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:15:37 INFO  time: compiled root in 0.77s
+2023.01.17 01:15:56 INFO  compiling root (1 scala source)
+2023.01.17 01:15:56 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:15:56 INFO  time: compiled root in 0.57s
+2023.01.17 01:17:02 INFO  compiling root (1 scala source)
+2023.01.17 01:17:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:17:02 INFO  time: compiled root in 0.6s
+2023.01.17 01:17:55 INFO  compiling root (1 scala source)
+2023.01.17 01:17:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:17:55 INFO  time: compiled root in 0.54s
+2023.01.17 01:17:58 INFO  compiling root (1 scala source)
+2023.01.17 01:17:58 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:17:58 INFO  time: compiled root in 0.61s
+2023.01.17 01:19:36 INFO  compiling root (1 scala source)
+2023.01.17 01:19:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:19:36 INFO  time: compiled root in 0.56s
+2023.01.17 01:20:40 INFO  compiling root (1 scala source)
+2023.01.17 01:20:40 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:20:40 INFO  time: compiled root in 0.56s
+Jan 17, 2023 1:20:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6531
+2023.01.17 01:21:28 INFO  compiling root (1 scala source)
+2023.01.17 01:21:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:21:28 INFO  time: compiled root in 0.76s
+2023.01.17 01:21:42 INFO  compiling root (1 scala source)
+2023.01.17 01:21:42 INFO  time: compiled root in 87ms
+2023.01.17 01:22:15 INFO  compiling root (1 scala source)
+2023.01.17 01:22:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:22:15 INFO  time: compiled root in 0.59s
+2023.01.17 01:23:21 INFO  compiling root (1 scala source)
+2023.01.17 01:23:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:23:21 INFO  time: compiled root in 0.58s
+2023.01.17 01:24:04 INFO  compiling root (1 scala source)
+2023.01.17 01:24:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:24:04 INFO  time: compiled root in 0.58s
+2023.01.17 01:24:07 INFO  compiling root (1 scala source)
+2023.01.17 01:24:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:24:07 INFO  time: compiled root in 0.58s
+2023.01.17 01:25:47 INFO  compiling root (1 scala source)
+2023.01.17 01:25:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:25:47 INFO  time: compiled root in 0.67s
+2023.01.17 01:26:16 INFO  compiling root (1 scala source)
+2023.01.17 01:26:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:26:16 INFO  time: compiled root in 0.59s
+2023.01.17 01:26:22 INFO  compiling root (1 scala source)
+2023.01.17 01:26:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:26:22 INFO  time: compiled root in 0.76s
+2023.01.17 01:26:49 INFO  compiling root (1 scala source)
+2023.01.17 01:26:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:26:49 INFO  time: compiled root in 0.56s
+2023.01.17 01:27:19 INFO  compiling root (1 scala source)
+2023.01.17 01:27:19 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:27:19 INFO  time: compiled root in 0.61s
+2023.01.17 01:27:53 INFO  compiling root (1 scala source)
+2023.01.17 01:27:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:27:53 INFO  time: compiled root in 0.6s
+2023.01.17 01:28:04 INFO  compiling root (1 scala source)
+2023.01.17 01:28:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:28:04 INFO  time: compiled root in 0.59s
+2023.01.17 01:28:26 INFO  compiling root (1 scala source)
+2023.01.17 01:28:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:28:26 INFO  time: compiled root in 0.55s
+2023.01.17 01:28:47 INFO  compiling root (1 scala source)
+2023.01.17 01:28:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:28:47 INFO  time: compiled root in 0.6s
+2023.01.17 01:28:53 INFO  compiling root (1 scala source)
+2023.01.17 01:28:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:28:53 INFO  time: compiled root in 0.6s
+2023.01.17 01:29:19 INFO  compiling root (1 scala source)
+2023.01.17 01:29:19 INFO  time: compiled root in 37ms
+2023.01.17 01:30:40 INFO  compiling root (1 scala source)
+2023.01.17 01:30:40 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:30:40 INFO  time: compiled root in 0.74s
+2023.01.17 01:31:08 INFO  compiling root (1 scala source)
+2023.01.17 01:31:08 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:31:08 INFO  time: compiled root in 0.64s
+2023.01.17 01:31:39 INFO  compiling root (1 scala source)
+2023.01.17 01:31:39 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:31:39 INFO  time: compiled root in 0.59s
+2023.01.17 01:32:42 INFO  compiling root (1 scala source)
+2023.01.17 01:32:42 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:32:42 INFO  time: compiled root in 0.6s
+2023.01.17 01:39:04 INFO  compiling root (1 scala source)
+2023.01.17 01:39:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:39:04 INFO  time: compiled root in 0.61s
+Jan 17, 2023 1:41:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7560
+Jan 17, 2023 1:42:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7687
+2023.01.17 01:42:36 INFO  compiling root (1 scala source)
+2023.01.17 01:42:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.01.17 01:42:36 INFO  time: compiled root in 0.59s
+Jan 17, 2023 1:54:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

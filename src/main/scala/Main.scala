@@ -1,21 +1,24 @@
 import scala.util.control.Breaks._
+import java.io._
+import scala.io._
 object Connect4 {
   var rows = 0
   var cols = 0
   var movesCounter = 0
-  var playerOneMoves = 0
-  var playerTwoMoves = 0
   var player = 'O'  
   var maxMoves = rows * cols
   var board = Array.fill(rows, cols)('*')
-  var moveHistoryOne = Array.fill(maxMoves/2)("")
-  var moveHistoryTwo = Array.fill(maxMoves/2)("")
+  var moveHistoryOne = ""
+  var moveHistoryTwo = ""
+  val boardFile = "Saved_Board_State.txt"
+  val gameFile = "Saved_Game_State.txt"
 
  
  
   def main(args: Array[String]): Unit = {
     
     while(true){
+      print("\u001b[2J")
       printMenu()
       var optionSelected = scala.io.StdIn.readInt()
       if(optionSelected==0){
@@ -23,18 +26,25 @@ object Connect4 {
       }
       else if(optionSelected==1){
         println("\u001b[2J")
-        newGame()
+        setBoardConfig()
+        play()
         println("Press enter to continue")
         var enter = scala.io.StdIn.readLine()
+        print("\u001b[2J")
       }
       else if(optionSelected==2){
+        println("\u001b[2J")
         loadGame()
+        play()
+        println("Press enter to continue")
+        var enter = scala.io.StdIn.readLine()
+        print("\u001b[2J")
       }
       else{
         print("Invalid option, try again!")
         Thread.sleep(1000)
       }
-      println("\u001b[2J")
+      
       
     
 }
@@ -72,12 +82,9 @@ def isDraw(): Boolean = {
   return false
 }
 
-def movesPrinter(movesHistory: Array[String],player: String): Unit ={
+def movesPrinter(movesHistory: String,player: String): Unit ={
     print(s"Player $player history: ")
-    for(cell <- movesHistory){
-    print(cell+" ")
-  }
-
+    print(movesHistory)
 }
 // check if the board is too small or if the difference between rows and cols is greater than 2
 def isValidSize(row: Int, col: Int): Boolean ={
@@ -115,12 +122,10 @@ def nextMove(player: Char, col: Int): Boolean = {
       if (board(row)(col) == '*') {
         board(row)(col) = player
         if(player == 'O'){
-          moveHistoryOne(playerOneMoves) = (col + 1).toString
-          playerOneMoves += 1
+          moveHistoryOne = moveHistoryOne + (col + 1).toString()
         }
         else{
-          moveHistoryTwo(playerTwoMoves) = (col + 1).toString
-          playerTwoMoves += 1
+          moveHistoryTwo = moveHistoryTwo + (col + 1).toString()
         }
         movesCounter += 1
         print("\u001b[2J")
@@ -189,21 +194,25 @@ def setBoardConfig(): Unit ={
   }
   player = 'O'
   maxMoves = rows * cols
-  moveHistoryOne = Array.fill(maxMoves/2)("")
-  moveHistoryTwo = Array.fill(maxMoves/2)("")
-  playerOneMoves = 0
-  playerTwoMoves = 0
+  moveHistoryOne = ""
+  moveHistoryTwo = ""
   board = Array.fill(rows, cols)('*')
   print("\u001b[2J")
 }
 
-def newGame(): Unit = {
-  setBoardConfig()
+def play(): Unit = {
   while (true) {
       formatedOutput()
       print(s"Player $player's turn. Which column do you want to play in (1-$cols)?")
-      val col = scala.io.StdIn.readInt() - 1
-      if (!nextMove(player, col)) {
+      val col = scala.io.StdIn.readLine()
+      if(col.equals("s")){
+        saveGame()
+        println("Game saved")
+        Thread.sleep(1000)
+        print("\u001b[2J")
+      }
+      if (col.forall(Character.isDigit)){
+        if (!nextMove(player, col.toInt-1)) {
         println("Invalid move. Try again.")
       } else {     
         if (isFourInRow(player)) {
@@ -214,10 +223,63 @@ def newGame(): Unit = {
         }
         player = if (player == 'X') 'O' else 'X'
   }
+
+      }
+      
 }
+}
+def saveGame(): Unit = {
+  boardSave()
+  movesSave()
+}
+
+def boardSave(): Unit = {
+  val boardWriter = new PrintWriter(new File(boardFile))
+  for(row <- board){
+  for(cell<-row){
+    boardWriter.write(cell)
+  }
+}
+boardWriter.close()
+}
+def movesSave(): Unit = {
+  val moveWriter = new PrintWriter(new File(gameFile))
+  moveWriter.write(rows+"\n")
+  moveWriter.write(cols+"\n")
+  for(i <- moveHistoryOne){
+    moveWriter.write(i)
+  }
+  moveWriter.write("\n")
+  for(i <- moveHistoryTwo){
+    moveWriter.write(i)
+  }
+  moveWriter.close()
+
 }
 def loadGame(): Unit = {
-
+  var row = 0
+  var col = 0
+  var lineCounter = 0
+  for (line <- Source.fromFile(gameFile).getLines){
+    if(lineCounter == 0){rows = line.toInt}
+    if(lineCounter == 1){cols = line.toInt}
+    if(lineCounter == 2){moveHistoryOne = line}
+    if(lineCounter == 3){moveHistoryTwo = line}
+    lineCounter +=1
+  }
+  player = if(moveHistoryOne.size == moveHistoryTwo.size)  'O' else 'X'
+  maxMoves = rows * cols
+  board = Array.fill(rows, cols)('*')
+  for(line <- Source.fromFile(boardFile).getLines){
+    for(char <- line){
+      board(row)(col) = char
+      col += 1
+      if(col == cols){
+        row += 1
+        col = 0
+      }
+    }
+  }
 }
 }
  
